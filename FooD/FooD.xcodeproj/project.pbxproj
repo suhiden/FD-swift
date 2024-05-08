@@ -54,6 +54,7 @@
 		033DCA2C2BEA92E500FD4B83 /* FooD */ = {
 			isa = PBXGroup;
 			children = (
+				033DCA412BEB0BCC00FD4B83 /* Resources */,
 				033DCA2D2BEA92E500FD4B83 /* AppDelegate.swift */,
 				033DCA2F2BEA92E500FD4B83 /* SceneDelegate.swift */,
 				033DCA312BEA92E500FD4B83 /* ViewController.swift */,
@@ -62,6 +63,21 @@
 				033DCA3B2BEA92E700FD4B83 /* Info.plist */,
 			);
 			path = FooD;
+			sourceTree = "<group>";
+		};
+		033DCA412BEB0BCC00FD4B83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				033DCA422BEB0BE700FD4B83 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		033DCA422BEB0BE700FD4B83 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
