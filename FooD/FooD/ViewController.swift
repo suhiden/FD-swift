@@ -23,7 +23,14 @@ class ViewController: UIViewController {
             lableFood.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20),
             lableFood.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20)])
         
-        lableFood.font = .systemFont(ofSize: 40, weight: UIFont.Weight(rawValue: 20))
+        lableFood.font = UIFont(name: "abosanovabold", size: 40)
+       
+    
+     
+
+    
+
+        
         lableFood.textColor = .white
         
         view.backgroundColor = .blue
