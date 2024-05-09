@@ -23,17 +23,27 @@ class ViewController: UIViewController {
             lableFood.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20),
             lableFood.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20)])
         
-        lableFood.font = UIFont(name: "abosanovabold", size: 40)
+        lableFood.font = .AbosanovaFam.Abosanovabold.size(of: 35)
+
        
-    
-     
+       
+        func colorFromHEX(_ hex: Int) ->UIColor{
+            let red = CGFloat((hex & 0xFF0000) >> 16) / 255.0
+            print((hex))
+            print((hex & 0xFF0000))
+            print((hex & 0xFF0000) >> 16)
+            let green = CGFloat((hex & 0x00FF00) >> 8) / 255.0
+            let blue = CGFloat(hex & 0x0000FF) / 255.0
 
-    
-
+            let customColor = UIColor(red: red, green: green, blue: blue, alpha: 1.0)
+            return customColor
+        }
+        //let customColor = colorFromHEX(0xff6C00)
+//        print(customColor)
         
-        lableFood.textColor = .white
+        lableFood.textColor = colorFromHEX(0x052A6E)
         
-        view.backgroundColor = .blue
+        view.backgroundColor = colorFromHEX(0xff6C00)
     }
     
 
