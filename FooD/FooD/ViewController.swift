@@ -25,24 +25,8 @@ class ViewController: UIViewController {
         
         lableFood.font = .AbosanovaFam.Abosanovabold.size(of: 35)
 
-       
-//       
-//        func colorFromHEX(_ hex: Int) ->UIColor{
-//            let red = CGFloat((hex & 0xFF0000) >> 16) / 255.0
-//            print((hex))
-//            print((hex & 0xFF0000))
-//            print((hex & 0xFF0000) >> 16)
-//            let green = CGFloat((hex & 0x00FF00) >> 8) / 255.0
-//            let blue = CGFloat(hex & 0x0000FF) / 255.0
-//
-//            let customColor = UIColor(red: red, green: green, blue: blue, alpha: 1.0)
-//            return customColor
-//        }
-//        //let customColor = colorFromHEX(0xff6C00)
-////        print(customColor)
         
-        lableFood.textColor = AppColor.blackOrigin
-        
+        lableFood.textColor = AppColor.accentOrange
         view.backgroundColor = AppColor.backgroundWhite
     }
     

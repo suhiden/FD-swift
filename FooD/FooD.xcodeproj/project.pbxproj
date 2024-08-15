@@ -33,6 +33,7 @@
 		038D3C332BECAA74002BE27E /* NotoColorEmoji-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038D3C212BECAA74002BE27E /* NotoColorEmoji-Regular.ttf */; };
 		038D3C362BECDF0A002BE27E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038D3C352BECDF0A002BE27E /* UIColor+Extension.swift */; };
 		038D3C382BED058B002BE27E /* appColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038D3C372BED058B002BE27E /* appColors.swift */; };
+		038D3C3E2BED1561002BE27E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038D3C3D2BED1561002BE27E /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,7 @@
 		038D3C212BECAA74002BE27E /* NotoColorEmoji-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoColorEmoji-Regular.ttf"; sourceTree = "<group>"; };
 		038D3C352BECDF0A002BE27E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		038D3C372BED058B002BE27E /* appColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appColors.swift; sourceTree = "<group>"; };
+		038D3C3D2BED1561002BE27E /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		033DCA2C2BEA92E500FD4B83 /* FooD */ = {
 			isa = PBXGroup;
 			children = (
+				038D3C392BED14F8002BE27E /* NavigationLayer */,
 				033DCA412BEB0BCC00FD4B83 /* Resources */,
 				033DCA2D2BEA92E500FD4B83 /* AppDelegate.swift */,
 				033DCA2F2BEA92E500FD4B83 /* SceneDelegate.swift */,
@@ -180,6 +183,30 @@
 				038D3C212BECAA74002BE27E /* NotoColorEmoji-Regular.ttf */,
 			);
 			path = Noto_Color_Emoji;
+			sourceTree = "<group>";
+		};
+		038D3C392BED14F8002BE27E /* NavigationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				038D3C3B2BED1526002BE27E /* Controllers */,
+				038D3C3A2BED150E002BE27E /* Coordinators */,
+			);
+			path = NavigationLayer;
+			sourceTree = "<group>";
+		};
+		038D3C3A2BED150E002BE27E /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				038D3C3D2BED1561002BE27E /* Coordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		038D3C3B2BED1526002BE27E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +309,7 @@
 				038D3C382BED058B002BE27E /* appColors.swift in Sources */,
 				033DCA302BEA92E500FD4B83 /* SceneDelegate.swift in Sources */,
 				038D3C362BECDF0A002BE27E /* UIColor+Extension.swift in Sources */,
+				038D3C3E2BED1561002BE27E /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
